@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp -n scripts/githooks/pre-commit .git/hooks/.
+chmod u+x .git/hooks/pre-commit

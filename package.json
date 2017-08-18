@@ -9,7 +9,8 @@
 		"test": "jest",
 		"emulator": "~/Android/Sdk/tools/emulator -avd Nexus_5X_API_23_x86",
 		"lint": "eslint ./ || true",
-		"reverse": "~/Android/Sdk/platform-tools/adb reverse tcp:8081 tcp:8081"
+		"reverse": "~/Android/Sdk/platform-tools/adb reverse tcp:8081 tcp:8081",
+		"postinstall": "bash scripts/githooks/install-git-hooks"
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.12",
