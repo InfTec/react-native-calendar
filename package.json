@@ -1,7 +1,9 @@
 {
-	"name": "reactNativeCalendar",
+	"name": "react-native-calendar",
 	"version": "0.0.1",
-	"private": true,
+	"description": "A React Native calendar component ",
+	"main": "index",
+	"license": "MIT",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
@@ -18,5 +20,9 @@
 	},
 	"jest": {
 		"preset": "react-native"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:InfTec/react-native-calendar.git"
 	}
 }
