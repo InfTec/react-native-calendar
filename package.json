@@ -6,15 +6,22 @@
 	"license": "MIT",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest"
+		"test": "jest",
+		"emulator": "~/Android/Sdk/tools/emulator -avd Nexus_5X_API_23_x86",
+		"lint": "eslint ./ || true",
+		"reverse": "~/Android/Sdk/platform-tools/adb reverse tcp:8081 tcp:8081"
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.47.1"
 	},
 	"devDependencies": {
+		"babel-eslint": "^7.2.3",
 		"babel-jest": "20.0.3",
 		"babel-preset-react-native": "3.0.0",
+		"eslint": "^4.4.1",
+		"eslint-plugin-jest": "^20.0.3",
+		"eslint-plugin-react": "^7.2.1",
 		"jest": "20.0.4",
 		"react-test-renderer": "16.0.0-alpha.12"
 	},
